@@ -1,14 +1,9 @@
-.navbar {
+.navbar-inverse {
    background-color: transparent;
    border-color: transparent;
    
 }
-.navbar-inverse .navbar-brand {
-    color: white;
-}
-.navbar-inverse .navbar-nav>li>a {
-    color: white;
-}
+
 nav.shrink {
     background-color: rgba(34, 34, 34, 0.55);
     height:60px;
@@ -33,7 +28,10 @@ nav.shrink {
 #landing {
     padding: 220px 0 220px 0;
 }
-
+.welc{
+    margin-top:20%;
+   
+}
 
 #bg-container {
   background-image: url('item.jpg');
@@ -48,7 +46,10 @@ nav.shrink {
   color: white;
   width: 100%;
   height: 100vh;
+  left: 0 !important;
   
+  top: 0;
+  overflow: auto;
 }
 
 #tagline {
