@@ -35,7 +35,8 @@ nav.shrink {
     padding: 220px 0 220px 0;
 }
 .welc{
-    margin-top:20%;
+    margin-top:23%;
+    font-size: 50px;
    
 }
 
@@ -61,10 +62,11 @@ nav.shrink {
 #tagline {
   color: whitesmoke;
 }
-.parallax-container {
-      height: 200px;
+#subscribe .parallax-container {
+      height: 320px;
     }
-       
+
+
 
 .stats-count {
     font-family: 'Raleway', sans-serif;
@@ -92,5 +94,18 @@ nav.shrink {
 
 .form-group {
     margin-bottom: 15px;
-    padding-top: 200px;
+    padding-top: 100px;
+}
+.section-heading h1 {
+    font-size: 28px;
+    letter-spacing: 0.05em;
+}
+.features-col-title h4 {
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    line-height: 20px;
+    font-weight: bold; 
+}
+.features-col-title {
+    margin: 0 0 25px 0;
 }
